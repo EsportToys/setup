@@ -1,0 +1,9 @@
+%AppData%\Microsoft\Windows\SendTo
+%AppData%\Microsoft\Windows\Start Menu\Programs\Startup
+%LocalAppData%\Microsoft\WindowsApps
+Notepad
+VSCode
+cd (admin) 
+  - Target: `cmd /k cd`
+  - Run as Admin under advanced option
+  - non-elevated not necessary as you can launch cmd from address bar

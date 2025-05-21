@@ -1,0 +1,5 @@
+Single-exe portable programs:
+- place into builtin `%LocalAppData%\Microsoft\WindowsApps`
+
+Add GitHubDesktop's shipped gnu coreutils to path:
+`%LocalAppData%\GitHubDesktop\app-%ghdSemVer%\resources\app\git\usr\bin`

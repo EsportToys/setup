@@ -119,7 +119,6 @@ const FILTERKEYS = extern struct {
 extern "user32" fn CreateWindowExA(u32, ?[*:0]const u8, ?[*:0]const u8, u32, i32, i32, i32, i32, ?HWND, ?win.HMENU, ?win.HMODULE, ?*anyopaque) callconv(.winapi) ?HWND;
 extern "user32" fn AdjustWindowRect(*[4]i32, u32, i32) callconv(.winapi) i32;
 extern "user32" fn SetWindowTextA(*anyopaque, ?[*:0]const u8) callconv(.winapi) i32;
-extern "user32" fn PostQuitMessage(i32) callconv(.winapi) void;
 extern "user32" fn SendMessageA(*const anyopaque, u32, usize, isize) callconv(.winapi) isize;
 extern "user32" fn GetMessageA(*MSG, ?HWND, u32, u32) callconv(.winapi) i32;
 extern "user32" fn DispatchMessageA(*const MSG) callconv(.winapi) isize;
